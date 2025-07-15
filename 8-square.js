@@ -1,4 +1,4 @@
-const size = parseInt(ProcessingInstruction.argv[2]);
+const size = parseInt(processInt.argv[2]);
 
 if (isNaN(size)) {
     console.log('Missing size');
