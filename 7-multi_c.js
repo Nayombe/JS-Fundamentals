@@ -1,4 +1,4 @@
-const count = perseInt(processing.argv[2]);
+const count = parseInt(process.argv[2]);
 
 if (isNaN(count)) {
     console.log('Missing number of occurrences');
